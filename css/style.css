@@ -1,0 +1,281 @@
+/* 
+    Author:Harshada Awhale & Srushti Alhat;
+    Theme:traveling management;
+    version:1.0;
+*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+  
+    padding: 1%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-black{
+    color:rgb(248, 9, 109);
+}
+
+.text-white{
+    color: whitesmoke;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: rgb(248, 9, 109);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(243, 88, 153) ;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    
+}
+
+.btn-primary{
+    background-color: rgb(252, 113, 171);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color:rgb(209, 28, 103) ;
+    color: white;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+/* .shy{
+    background-color: aliceblue;
+    border: 0.5px solid gray;
+    background-color:rgb(197, 237, 253);
+    margin: 5% auto;
+    padding: 2%;
+} */
+
+.img-curve{
+    border-radius: 40px;
+
+}
+
+.float-container{
+    position: relative;
+    
+}
+
+.float-text{
+    position: absolute;
+    bottom: 100px;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+fieldset{
+    border: 1px solid black;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.error{
+    padding: 2%;
+    color:rgb(209, 28, 103);
+}
+
+.success{
+    padding: 5%;
+    color: green;
+}
+
+/* csss for navbar section */
+.logo{
+    border: none;
+    width: 10%;
+    float: left;
+}
+.navbar{
+    background-image: url(../images/BG2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:0% 5%;
+}
+
+.menu{
+    line-height: 110px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* css for travel search section*/
+
+.travel-search{
+    background-image: url(../images/bg.jpg);
+    padding:10% 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0%;
+   
+
+}
+
+.travel-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/*  css for categories */
+
+.categories{
+    padding: 4% 0;
+
+}
+
+.Box-3{
+    border: none;
+    width: 23%;
+    float: left;
+    margin: 1%;
+}
+
+.Box-2{
+    border: none;
+    width: 23%;
+    float: right;
+    margin: 1%;
+   
+}
+.SK{
+    width: 100%;
+}
+
+/* css for trip plans */
+
+.trip-plan{
+    background-color:rgb(197, 237, 253);
+    padding: 4%;
+
+}
+
+.trip-plans-box{
+
+    width: 47%;
+    margin: 1%;
+    padding: 0.5%;
+    float: left;
+    background-color: whitesmoke;
+    border-radius: 10px;
+   
+}
+
+.trip-plans-img{
+    width: 0%;
+    transform: scale(0.7);
+    float: left;
+}
+.trip-plans-desc{
+    width: 60%;
+    float: left;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.price{
+    font-size: 1rem;
+    margin: 1% 0;
+    font-weight: bold;
+}
+
+/* css for social  */
+.social ul{
+    list-style-type: none;
+
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* css for booking */
+
+.booking{
+    width: 70%;
+    margin: 2% auto;
+    
+}
+.trip-search{
+    background-color: #d8eef6;
+}
+.input-responsive{
+    width: 96%;
+    padding: 2%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: whitesmoke;
+}
+
+.booking-label{
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+/* css for thank you */
+
+.thanks{
+   margin: 10% auto;
+    width: 100%;
+    background-color:#d8eef6;;
+    background-image: url(../images/bac.jpg); 
+    padding:10% 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0%;
+}
+
+
+/* css for mobile size or smaller screen */
+
+/* @media only screen and (max-width:768px){ 
+    .logo
+} */
